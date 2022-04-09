@@ -1,0 +1,27 @@
+.loginContainer {
+  background-color: $sColor;
+  padding: 0;
+  .row {
+    margin: 0;
+    padding: 0;
+    .col-6 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .loginContent {
+    height: 100vh;
+    .loginLeft {
+      // background-color: $pColor;
+      background: $bg1;
+      .c-lf {
+        width: 95%;
+        height:100%;
+        background-image: url(../images/BD1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+    }
+  }
+}

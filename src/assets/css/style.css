@@ -1,0 +1,56 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.text-1 {
+  color: #797979;
+  font-family: "Poppins", sans-serif; }
+
+.text-2 {
+  color: #BBB;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif; }
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: App-logo-spin infinite 20s linear; } }
+.empty-container {
+  background-color: #ECF6FE; }
+  .empty-container .empty-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin); }
+
+.loginContainer {
+  background-color: #ECF6FE;
+  padding: 0; }
+  .loginContainer .row {
+    margin: 0;
+    padding: 0; }
+    .loginContainer .row .col-6 {
+      margin: 0;
+      padding: 0; }
+  .loginContainer .loginContent {
+    height: 100vh; }
+    .loginContainer .loginContent .loginLeft {
+      background: linear-gradient(0deg, rgba(48, 125, 207, 0.6), rgba(64, 125, 216, 0.6)), #468ad4; }
+      .loginContainer .loginContent .loginLeft .c-lf {
+        width: 95%;
+        height: 100%;
+        background-image: url(../images/BD1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom; }
+
+/*# sourceMappingURL=style.css.map */
